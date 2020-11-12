@@ -54,8 +54,9 @@ Plug 'sukima/xmledit'
 Plug 'tweekmonster/django-plus.vim' 
 Plug 'mattn/emmet-vim'
 Plug 'puremourning/vimspector'
-"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-"Plug 'junegunn/fzf.vim'
+Plug 'vuciv/vim-bujo'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
 colorscheme gruvbox
